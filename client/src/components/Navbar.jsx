@@ -12,6 +12,7 @@ import { useTheme } from "@mui/material/styles"; // Import useTheme from MUI
 import { AppBar, IconButton, InputBase, Toolbar } from "@mui/material";
 import { setMode } from "state";
 
+
 const Navbar = () => {
   const dispatch = useDispatch();
   const theme = useTheme(); // Correct usage of useTheme
