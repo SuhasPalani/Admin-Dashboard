@@ -55,6 +55,7 @@ export const api = createApi({
       query: () => "general/dashboard",
       providesTags: ["Dashboard"],
     }),
+    
   }),
 });
 
